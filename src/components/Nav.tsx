@@ -15,9 +15,9 @@ export default function Nav() {
                             <IconHomeFilled size={32} />
                             <span className="hidden md:block">Início</span>
                         </Link>
-                        <div className="flex gap-2">
+                        <div className="flex gap-2 items-center">
                             <Link href={'/carrinho'} className="flex items-center gap-2 hover:text-orange-400 transition-all duration-300">
-                                <div className="flex gap-3">
+                                <div className="flex gap-3 items-center">
                                     <IconShoppingCartFilled size={32} />
                                     <span className="hidden md:block">Carrinho</span>
                                 </div>
