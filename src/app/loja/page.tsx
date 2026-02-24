@@ -26,7 +26,7 @@ export default function Loja() {
                 <main className="md:w-4/6 w-full px-5 flex md:flex-row flex-col gap-5">
                     <aside className="bg-gray-900/60 h-min rounded-2xl flex flex-col">
                         <div className="bg-gray-900 px-12 py-6 rounded-t-2xl font-bold">
-                            CATEGÓRIAS
+                            CATEGORIAS
                         </div>
                         <div className="flex flex-col items-center gap-5 py-3 h-min">
                             <FilterSideBar nome={'TODOS'} alterarFiltro={alterarFiltro} filtro={filtro} />
